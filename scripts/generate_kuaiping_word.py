@@ -397,7 +397,7 @@ def build_document():
 
 
 if __name__ == "__main__":
-    output_path = "/workspace/docs/地块前期研判报告（快评版）模板.docx"
+    output_path = "/workspace/docs/交付模板/地块前期研判报告（快评版）模板.docx"
     import os
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     doc = build_document()
